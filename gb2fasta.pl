@@ -38,7 +38,7 @@ my @numLoc=();
 my @sequence = ();
 my $source;
 
-if ($ARGV[0] =~ m/-h/){
+if ($ARGV[0] =~ m/^-he{0,1}l{0,1}p{0,1}$/ or $ARGV[0] eq ""){
 	die "$usage\n";
 } else {
 	for (my $i=0; $i<scalar(@ARGV); ++$i){
