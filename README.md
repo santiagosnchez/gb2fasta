@@ -10,9 +10,9 @@ The program reads a file with one or multiple genbank records and extract the se
 ## Or install (UNIX systems)
 
     git clone https://github.com/santiagosnchez/gb2fasta
-    cd GetPhased
-    chmod +x getPhased.pl
-    sudo cp getPhased.pl /usr/local/bin
+    cd gb2fasta
+    chmod +x gb2fasta.pl
+    sudo cp gb2fasta.pl /usr/local/bin
 
 ## Running the code
 
